@@ -7,24 +7,43 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">Small Description</p>
-    <form action="" method="post" id="survey-form">
-        <label id="name-label" for="">Name: <input id="name" type="text" placeholder="Enter your name" required></label>
-        <label id="email-label" for="">Email: <input id="email" type="email" placeholder="Enter your Email" required></label>
-        <label id="number-label" for="">Number: <input id="number" type="number" min="1" max="100" placeholder="Enter a Number between 1 and 100"></label>
-        <select name="" id="dropdown">
-            <option value=""></option>
-            <option value=""></option>
-        </select>
-        <input name="radio1" type="radio" value="a">
-        <input name="radio1" type="radio" value="b">
-        <input name="radio1" type="radio" value="c">
-        <input type="checkbox" name="" id="" value="1">
-        <input type="checkbox" name="" id="" value="2">
-        <input type="checkbox" name="" id="" value="3">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <button id="submit">Submit</button>
-    </form>
+    <div id="container">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">
+            This is a small survey form to practice some html and css
+        </p>
+        <form action="" method="post" id="survey-form">
+            <label id="name-label" for="">
+                Name: <input id="name" type="text" placeholder="Enter your name" required>
+            </label>
+            <label id="email-label" for="">
+                Email: <input id="email" type="email" placeholder="Enter your Email" required>
+            </label>
+            <label id="number-label" for="">
+                Number: <input id="number" type="number" min="1" max="100" placeholder="Enter a Number between 1 and 100">
+            </label>
+            <label for="">Opciones:
+                <select name="options" id="dropdown">
+                    <option value="one">Option 1</option>
+                    <option value="two">Option 2</option>
+                </select>
+            </label>
+            <p>Gender:</p>
+            <div id="radios">
+                <input name="radio1" type="radio" value="a">Woman
+                <input name="radio1" type="radio" value="b">Man
+                <input name="radio1" type="radio" value="c">Other
+            </div>
+            <p>Courses</p>
+            <div id="checkboxes">
+                <input type="checkbox" name="" id="" value="1">Course 1
+                <input type="checkbox" name="" id="" value="2">Course 2
+                <input type="checkbox" name="" id="" value="3">Course 2
+            </div>
+            <p>Comment</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <button id="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>

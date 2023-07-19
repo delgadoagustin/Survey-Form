@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: lightslategray;
+}
+
+#container{
+    background-color: ghostwhite;
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(-50%);
+
+    width: 20em;
+    margin: auto;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 50px 3px rgba(0, 0, 0, 40%);
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    margin: 2px;
+}
+
+#description{
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin: 5px 0 10px 0;
+}
+
+input[type="text"],input[type="email"],input[type="number"]{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    margin: 0 10px 0 10px;
+}
+
+select{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+}
+
+#radios, #checkboxes{
+    margin: auto;
+    width: fit-content;
+}
+
+textarea{
+    padding: 10px;
+    height: 30px;
+    min-height: 20px;
+    width: 90%;
+    display: block;
+    margin: auto;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+}
+
+button{
+    display: block;
+    padding: 10px;
+    width: 80%;
+    margin: 10px auto 0 auto;
+    background-color: lightcyan;
+    border: 2px solid lavender;
+    border-radius: 10px;
+}
+
+#text{
+    size: 20%;
+}
+
+
+
+
+
+
+
+
+
